@@ -7,7 +7,7 @@ const stringifiedParams = queryString.stringify({
     "https://www.googleapis.com/auth/userinfo.email",
     "https://www.googleapis.com/auth/userinfo.profile",
     "https://www.googleapis.com/auth/calendar.events"
-  ].join(" "), // space seperated string
+  ].join(" "), // space separated string
   response_type: "code",
   access_type: "offline",
   prompt: "consent"
